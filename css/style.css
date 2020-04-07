@@ -708,6 +708,7 @@ body{
     .upper__nav-logo2 {
         width: 60px;
         margin-right: 0.8em;
+        height: auto;
     }
     /* header slider */
     .slick-dotted.slick-slider {
