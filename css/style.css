@@ -610,7 +610,7 @@ body{
     align-items: center;   
 }
 .footfooter__brand{
-    width: 7em;
+    width: 100px;
     height: auto;
     cursor: pointer;
 }
@@ -706,7 +706,7 @@ body{
         z-index: 200;
     }
     .upper__nav-logo2 {
-        width: 4em;
+        width: 60px;
         margin-right: 0.8em;
     }
     /* header slider */
