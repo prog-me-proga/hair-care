@@ -1,0 +1,29 @@
+.about__block{
+    margin-top: 2em;
+}
+.about__block-txt{
+    color: #434446;
+    font-size: 1.2em;
+    font-family: 'Lily-karla';
+    margin-bottom: 2em;
+    line-height: 1.3em; 
+}
+
+.about__block-face{
+    width: 10em;
+}
+.about__block-name{
+    font-size: 1.2em;
+    color: #ec6069;
+    font-family: 'Lily-karla';
+    margin-bottom: 0.5em;
+}
+.about__block-job{
+    font-size: 1em;
+    color: #999;
+    font-family: 'Lily-karla';
+    margin-bottom: 1em;
+}
+.about__block-item{
+    text-align: center;
+}

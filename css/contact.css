@@ -1,0 +1,146 @@
+@import 'style.css';
+
+/* contct html css */
+.header__bg-image{
+    width: 100%;
+    height: 100%;
+}
+.header__bg-title2{
+    position: absolute;
+    top: 30%;
+    right: 20%;
+    color:#EC6069;
+    font-size: 2.3em;
+    font-family: 'Lily-karla';
+    text-transform: uppercase;
+}
+.header__bg-navigation2{
+    position: absolute;
+    bottom: 10%;
+    right: 20%;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    font-family: 'Lily-karla';
+}
+.header__bg-link2{
+    color: #EC6069;
+    font-size: 1em;
+    font-family: 'Lily-karla';
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+}
+.contact__main{
+    padding: 2em 0;
+}
+/* location */
+.location{
+    width: 100%;
+    height: auto;
+    padding: 2em 0;
+    background: #fff;   
+}
+
+.location__map{
+    width: 100%;
+    height: 50vh;
+}
+/* contact form */
+.form-group{
+    margin-top: 1.5em;
+    padding-right: 0;
+    padding-left: 0;
+}
+.form-btn{
+    margin-top: 20px;
+    padding: 0.5em 1em;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background: #ff9ea4;
+    color: #ffff;
+    box-shadow: 0 0 13px #999;
+    transition: ease-in-out 0.5s;
+    margin-bottom: 2em;
+    cursor: pointer;
+}
+.form-btn:hover{
+    background: rgb(236, 112, 96);
+}
+
+input{
+    border: 1px solid #999;
+    border-radius: 5px;
+    margin-top: 1em;
+    padding: 0.5em 0.8em;
+    width: 92%;
+}
+input:focus{
+    outline: none;
+}
+textarea{
+    margin-top: 1em;
+    width: 96%;
+    border: 1px solid #999;
+    border-radius: 9px;
+}
+textarea:focus{
+    outline: none;
+}
+/* contact details */
+.contact__social{
+    margin-bottom: 1.5em;
+}
+.contact__social-title{
+    color:  rgb(63, 63, 63);
+    font-size: 1.5em;
+    margin-bottom: 0.6em;
+    
+}
+.contact-fa-fb{
+    font-size: 1.2em;
+    color: #EC6069;
+    background: #e7e7e7;
+    padding: 0.5em 0.8em;
+    border-radius: 50%; 
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+}
+.contact-fa-fb:hover{
+    color: #000000;
+    background: #e7e7e7;
+}
+.contact-fa{
+    font-size: 1.2em;
+    color: #EC6069;
+    background: #e7e7e7;
+    padding: 0.5em 0.6em;
+    border-radius: 50%;  
+    margin-left: 0.5em; 
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+}
+.contact-fa:hover{
+    color: #000000;
+}
+
+.contact__social-title::after{
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #999;
+    display: block;
+    margin-top: 0.5em;
+}
+.contact__social-adress{
+    display: flex;
+    cursor: pointer;
+}
+
+@media (max-width:425px){
+    .header__bg-image{
+        margin-top: 4em;      
+    }
+    .header__bg-title2 {
+        top: 43%;
+        right: 20%;
+    }
+}

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/WOW-master/animate.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Hair Care</title>
+</head>
+<body>
+    <header class="header">
+        <div class="upper__nav container">
+            <div class="upper__nav-call">
+                <i class="upper__nav-fa fas fa-phone-alt"></i>
+                <div>
+                    <p class="upper__nav-txt">+998 90 909 09 09</p>
+                    <p class="upper__nav-txt">+998 90 909 09 99</p>
+                </div>
+            </div>
+            <img class="upper__nav-logo" src="img/brand.png" alt="">
+            <div class="upper__nav-map">
+                <i class="upper__nav-fa2 fas fa-map-marker-alt"></i>
+                <div>
+                    <p class="upper__nav-txt">ШАЙХАНТАХУРСКИЙ РАЙОН</p>
+                    <p class="upper__nav-txt">просп. БЕРУНИ-32, Ташкент</p>
+                </div>
+            </div>
+        </div>
+        <!-- main menu -->
+        <ul class="header__menu-list container wow fadeInDown" data-wow-duration="5s">
+            <li><a class="header__menu-item" href="index.html">ГЛАВНАЯ</a></li>
+            <li><a class="header__menu-item" href="about.html">о нас</a></li>
+            <li><a class="header__menu-item" href="service.html">услуги</a></li>
+            <li><a class="header__menu-item" href="contact.html">контакты</a></li>
+        </ul>
+        <!-- small screen menu -->
+        <div class="header__Smallmenu">
+            <!-- animated btn -->
+            <svg class="ham ham2 header__menu-btn" viewbox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+                <path class="line top" d="m 70,33 h -40 c -6.5909,0 -7.763966,-4.501509 -7.763966,-7.511428 0,-4.721448 3.376452,-9.583771 13.876919,-9.583771 14.786182,0 11.409257,14.896182 9.596449,21.970818 -1.812808,7.074636 -15.709402,12.124381 -15.709402,12.124381" />
+                <path class="line middle" d="m 30,50 h 40" />
+                <path class="line bottom" d="m 70,67 h -40 c -6.5909,0 -7.763966,4.501509 -7.763966,7.511428 0,4.721448 3.376452,9.583771 13.876919,9.583771 14.786182,0 11.409257,-14.896182 9.596449,-21.970818 -1.812808,-7.074636 -15.709402,-12.124381 -15.709402,-12.124381" />
+            </svg>
+            <!-- brand -->
+            <img class="upper__nav-logo" src="img/logo/small-logo.png" alt="">
+        </div>
+
+        <!-- sidebar menu -->
+        <div class="header__menu_sidebar">
+            <ul class="header__sidebar-list">
+                <li><a class="header__sidebar-item active" href="index.html">ГЛАВНАЯ</a></li>
+                <li><a class="header__sidebar-item" href="about.html">о нас</a></li>
+                <li><a class="header__sidebar-item" href="service.html">услуги</a></li>
+                <li><a class="header__sidebar-item" href="contact.html">контакты</a></li>
+                <li></li>
+            </ul>
+            <img class="header__sidebar-brand" src="img/brand.png" alt="">
+        </div>
+
+        <div class="header__bg container-fluid">
+            <img class="header__bg-img" src="img/bg/service_bg.jpg" alt="">
+            <p class="header__bg-title">услуги</p>
+            <p class="header__bg-navigation"><a class="header__bg-link" href="index.html">Главная</a><i class="header__bg-fa fas fa-arrow-right"> </i>Услуги</p>
+        </div>
+    </header>
+
+    <section class="service__tab container">
+        <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-3 service__tab-nav">
+                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <h2 class="service__tab-title">Наши услуги</h2>
+                    <a class="nav-link active" id="v-pills-hair-tab" data-toggle="pill" href="#v-pills-hair" role="tab" aria-controls="v-pills-hair" aria-selected="true">Пересадка волос</a>
+                    <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">шлифовка рубцов</a>
+                    <a class="nav-link" id="v-pills-excilite-tab" data-toggle="pill" href="#v-pills-excilite" role="tab" aria-controls="v-pills-excilite" aria-selected="false">процедура excilite</a>
+                    <a class="nav-link" id="v-pills-mole-tab" data-toggle="pill" href="#v-pills-mole" role="tab" aria-controls="v-pills-mole" aria-selected="false">удаление бородавок</a>
+                    <a class="nav-link" id="v-pills-pigmentation-tab" data-toggle="pill" href="#v-pills-pigmentation" role="tab" aria-controls="v-pills-pigmentation" aria-selected="false">удаление пигментных пятен</a>
+                    <a class="nav-link" id="v-pills-vessels-tab" data-toggle="pill" href="#v-pills-vessels" role="tab" aria-controls="v-pills-vessels" aria-selected="false">удаление сосудов</a>
+                </div>
+            </div>
+            <div class="col-lg-9 col-md-9">
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="v-pills-hair" role="tabpanel" aria-labelledby="v-pills-hair-tab">
+                        <h3 class="service__tab-title">Пересадка волос методом FUE</h3>
+                        <!-- title divider -->
+                        <div class="divider__block">
+                            <div class="divider__line"></div>
+                            <img class="title-divider" src="img/logo/divider-bg.png" alt="">
+                        </div>
+                        
+                        <img class="service__tab-img" src="img/service/hair.jpg" alt="">
+                        <p class="service__tab-txt">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, quae? 
+                        </p>
+                    </div>
+
+                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                        <h3 class="service__tab-title">шлифовка рубцов</h3>
+                        <!-- title divider -->
+                        <div class="divider__block">
+                            <div class="divider__line"></div>
+                            <img class="title-divider" src="img/logo/divider-bg.png" alt="">
+                        </div>
+                        <img class="service__tab-img" src="img/service/scratch.jpg" alt="">
+                        <p class="service__tab-txt">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, quae?
+                        </p>
+                    </div>
+
+                    <div class="tab-pane fade" id="v-pills-excilite" role="tabpanel" aria-labelledby="v-pills-excilite-tab">
+                        <h3 class="service__tab-title">процедура excilite</h3>
+                        <!-- title divider -->
+                        <div class="divider__block">
+                            <div class="divider__line"></div>
+                            <img class="title-divider" src="img/logo/divider-bg.png" alt="">
+                        </div>
+                        <img class="service__tab-img" src="img/service/exc.jpg" alt="">
+                        <p class="service__tab-txt">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, quae?
+                        </p>
+                    </div>
+
+                    <div class="tab-pane fade" id="v-pills-mole" role="tabpanel" aria-labelledby="v-pills-mole-tab">
+                        <h3 class="service__tab-title">удаление бородавок</h3>
+                        <!-- title divider -->
+                        <div class="divider__block">
+                            <div class="divider__line"></div>
+                            <img class="title-divider" src="img/logo/divider-bg.png" alt="">
+                        </div>
+                        <img class="service__tab-img" src="img/service/mole.jpg" alt="">
+                        <p class="service__tab-txt">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, quae?
+                        </p>
+                    </div>
+
+                    <div class="tab-pane fade" id="v-pills-pigmentation" role="tabpanel" aria-labelledby="v-pills-pigmentation-tab">
+                        <h3 class="service__tab-title">удаление пигментных пятен</h3>
+                        <!-- title divider -->
+                        <div class="divider__block">
+                            <div class="divider__line"></div>
+                            <img class="title-divider" src="img/logo/divider-bg.png" alt="">
+                        </div>
+                        <img class="service__tab-img" src="img/service/pigmentation.jpg" alt="">
+                        <p class="service__tab-txt">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, quae?
+                        </p>
+                    </div>
+
+                    <div class="tab-pane fade" id="v-pills-vessels" role="tabpanel" aria-labelledby="v-pills-vessels-tab">
+                        <h3 class="service__tab-title">удаление сосудов</h3>
+                        <!-- title divider -->
+                        <div class="divider__block">
+                            <div class="divider__line"></div>
+                            <img class="title-divider" src="img/logo/divider-bg.png" alt="">
+                        </div>
+                        <img class="service__tab-img" src="img/service/vessels.jpg" alt="">
+                        <p class="service__tab-txt">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, quae?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer container-fluid">
+        <div class="row">
+            <div class="col-lg-6">
+                <iframe src="https://yandex.uz/map-widget/v1/-/CGxhvSoA" width="100%" height="100%" frameborder="1" allowfullscreen="true"></iframe>
+            </div>
+            <div class="footer__block2 col-lg-6">
+                <p class="footer__block-title">СВЯЗАТЬСЯ С НАМИ</p>
+                <div class="footer__block-icon">
+                    <i class="footer-fa fas fa-phone-alt"></i>
+                    <p class="footer__block-txt">+998 90 909 09 09, +998 90 909 09 99</p>
+                </div>
+                <div class="footer__block-icon">
+                    <i class="footer-fa2 fas fa-map-marker-alt"></i>
+                    <p class="footer__block-txt">Ташкент, ШАЙХАНТАХУРСКИЙ РАЙОН, просп. БЕРУНИ, 32</p>
+                </div>
+                <div class="footer__block-icon">
+                    <i class="footer-fa far fa-envelope"></i>
+                    <p class="footer__block-txt">something@mail.ru</p>
+                </div>
+    
+    
+            </div>
+        </div>
+    </footer>
+    
+    <section class="footfooter container-fluid">
+        <div class="footfooter-row row justify-content-center text-center">
+            <div class="footfooter__block col-lg-4">
+                <img class="footfooter__brand" src="img/brand.png" alt="">
+            </div>
+            <div class="col-lg-4">
+                <p class="allrights">© 2020 All Rights Reserved.Designed by <a class="footfooter__company-link" href="">"AV"</a> ITech Company</p>
+            </div>
+            <div class="footfooter__social-block col-lg-4">
+                <i class="footfooter-fa-fb fab fa-facebook-f"></i>
+                <i class="footfooter-fa fab fa-instagram"></i>
+                <i class="footfooter-fa fab fa-telegram-plane"></i>
+            </div>
+        </div>
+    </section>
+    <!-- js script -->
+    <script src="js/jQuery v3.4.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/WOW-master/wow.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    
+    <script src="js/vertical.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

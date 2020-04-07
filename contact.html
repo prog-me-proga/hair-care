@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/WOW-master/animate.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>Hair Care</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="upper__nav container">
+            <div class="upper__nav-call">
+                <i class="upper__nav-fa fas fa-phone-alt"></i>
+                <div>
+                    <p class="upper__nav-txt">+998 90 909 09 09</p>
+                    <p class="upper__nav-txt">+998 90 909 09 99</p>
+                </div>
+            </div>
+            <img class="upper__nav-logo" src="img/brand.png" alt="">
+            <div class="upper__nav-map">
+                <i class="upper__nav-fa2 fas fa-map-marker-alt"></i>
+                <div>
+                    <p class="upper__nav-txt">ШАЙХАНТАХУРСКИЙ РАЙОН</p>
+                    <p class="upper__nav-txt">просп. БЕРУНИ-32, Ташкент</p>
+                </div>
+            </div>
+        </div>
+        <!-- main menu -->
+        <ul class="header__menu-list container wow fadeInDown" data-wow-duration="5s">
+            <li><a class="header__menu-item" href="index.html">ГЛАВНАЯ</a></li>
+            <li><a class="header__menu-item" href="about.html">о нас</a></li>
+            <li><a class="header__menu-item" href="service.html">услуги</a></li>
+            <li><a class="header__menu-item" href="">контакты</a></li>
+        </ul>
+        <!-- small screen menu -->
+        <div class="header__Smallmenu">
+            <!-- animated btn -->
+            <svg class="ham ham2 header__menu-btn" viewbox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+                <path class="line top" d="m 70,33 h -40 c -6.5909,0 -7.763966,-4.501509 -7.763966,-7.511428 0,-4.721448 3.376452,-9.583771 13.876919,-9.583771 14.786182,0 11.409257,14.896182 9.596449,21.970818 -1.812808,7.074636 -15.709402,12.124381 -15.709402,12.124381" />
+                <path class="line middle" d="m 30,50 h 40" />
+                <path class="line bottom" d="m 70,67 h -40 c -6.5909,0 -7.763966,4.501509 -7.763966,7.511428 0,4.721448 3.376452,9.583771 13.876919,9.583771 14.786182,0 11.409257,-14.896182 9.596449,-21.970818 -1.812808,-7.074636 -15.709402,-12.124381 -15.709402,-12.124381" />
+            </svg>
+            <!-- brand -->
+            <img class="upper__nav-logo" src="img/logo/small-logo.png" alt="">
+        </div>
+        <!-- sidebar menu -->
+        <div class="header__menu_sidebar">
+            <ul class="header__sidebar-list">
+                <li><a class="header__sidebar-item active" href="index.html">ГЛАВНАЯ</a></li>
+                <li><a class="header__sidebar-item" href="about.html">о нас</a></li>
+                <li><a class="header__sidebar-item" href="service.html">услуги</a></li>
+                <li><a class="header__sidebar-item" href="contact.html">контакты</a></li>
+                <li></li>
+            </ul>
+            <img class="header__sidebar-brand" src="img/brand.png" alt="">
+        </div>
+
+        <!-- header bg -->
+        <div class="header__bg container-fluid">
+            <img class="header__bg-image" src="img/bg/background-03-1920x537.jpg" alt="">
+            <p class="header__bg-title2">контакты</p>
+            <p class="header__bg-navigation2"><a class="header__bg-link2" href="index.html">Главная</a><i class="header__bg-fa fas fa-arrow-right"> </i>Контакты</p>
+        </div>
+    </header>
+
+    <!-- contact detail -->
+    <section class="contact__main container">
+        <div class="row">
+            <div class="col-lg-8">
+                <p class="contact__main-title">Свяжитесь с нами</p>
+                <!-- title divider -->
+                <div class="divider__block">
+                    <div class="divider__line"></div>
+                    <img class="title-divider" src="img/logo/divider-bg.png" alt="">
+                </div>
+                <!-- contact form -->
+                <form action="telegram.php" method="POST" id="myform">
+
+                    <legend class="form-title">Вы можете связаться с нами любым удобным для вас способом. Вы также можете использовать форму быстрой связи ниже или посетить наш медицинский центр лично. <br> Мы будем рады ответить на ваши вопросы.</legend>
+                    
+                    <div class="row">
+                        <div class="form-group col-lg-6">
+                            <legend class="form-title">Ваше имя и фамилия</legend>
+                            <input type="text" id="" name="user_name" placeholder="Имя и Фамилия" required>
+                        </div>
+                        <div class="form-group  col-lg-6">
+                            <legend class="form-title">Ваш номер телефона</legend>
+                            <input type="text" id="" name="user_phone" placeholder="+998 90 999 09 09" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-lg-12">
+                            <legend class="form-title">Ваши вопросы или предложения</legend>
+                            <textarea rows="4" cols="50" name="user_message" form="myform" required></textarea>
+                        </div>                       
+                        <button class="form-btn" type="submit">Отправить</button>
+                    </div>
+
+                </form>
+            </div>
+            <!-- ////// -->
+            <div class="col-lg-4">
+                <div class="contact__social">
+                    <p class="contact__social-title">Социальные сети</p>
+                    <div class="contact__social-icon">
+                        <i class="contact-fa-fb fab fa-facebook-f"></i>
+                        <i class="contact-fa fab fa-instagram"></i>
+                        <i class="contact-fa fab fa-telegram-plane"></i>
+                    </div>
+                </div>
+
+                <div class="contact__social">
+                    <p class="contact__social-title">Адрес</p>
+                    <div class="contact__social-adress">
+                        <i class="upper__nav-fa2 fas fa-map-marker-alt"></i>
+                        <p class="contact__social-detail" style="margin-left: 0.6em;">ШАЙХАНТАХУРСКИЙ РАЙОН<br> просп. БЕРУНИ-32, Ташкент</p>
+                    </div>
+                </div>
+
+                <div class="contact__social">
+                    <p class="contact__social-title">Телефонные номера</p>
+                    <div class="contact__social-adress">
+                        <i class="upper__nav-fa fas fa-phone-alt"></i>
+                        <p class="contact__social-detail" style="margin-left: 0.6em;">+998 90 909 09 09 <br> 
+                        +998 90 909 09 99</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- map -->
+    <section class="location container-fluid">
+        <div class="location__map">
+            <iframe src="https://yandex.uz/map-widget/v1/-/CGxhvSoA" width="100%" height="100%" frameborder="1" allowfullscreen="true"></iframe>
+        </div>
+    </section>
+
+    <!-- license -->
+    <section class="footfooter container-fluid">
+        <div class="footfooter-row row justify-content-center text-center">
+            <div class="footfooter__block col-lg-4">
+                <img class="footfooter__brand" src="img/brand.png" alt="">
+            </div>
+            <div class="col-lg-4">
+                <p class="allrights">© 2020 All Rights Reserved.Designed by <a class="footfooter__company-link" href="">"AV"</a> iTech Company</p>
+            </div>
+            <div class="footfooter__social-block col-lg-4">
+                <i class="footfooter-fa-fb fab fa-facebook-f"></i>
+                <i class="footfooter-fa fab fa-instagram"></i>
+                <i class="footfooter-fa fab fa-telegram-plane"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- js script -->
+    <script src="js/jQuery v3.4.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/WOW-master/wow.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

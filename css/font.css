@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Lily-bask';
+    src: url(../fonts/Baskervville/Baskervville-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Lily-dance';
+    src: url(../fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Lily-gir';
+    src: url(../fonts/Girassol/Girassol-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Lily-karla';
+    src: url(../fonts/Karla/Karla-Regular.ttf);
+}
